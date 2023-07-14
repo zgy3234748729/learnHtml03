@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>表单复刻</title>
+  </head>
+  <body>
+    <div class="inputText">
+        Activity name
+        <input />
+    </div>
+    <div class="select">
+        Activity zone
+        <select value="zone">
+          <option>zone one</option>
+          <option>zone two</option>
+        </select>
+    </div>
+    <div class="time">
+        Activity time 
+        <input type="date"> - 
+        <input type="time">
+    </div>
+    <div class="checkbox">
+        Activity type 
+        <input type="checkbox" name="activity_type" value="Online activities">Online activities
+        <input type="checkbox" name="activity_type" value="Promotion activities">Promotion activities
+        <input type="checkbox" name="activity_type" value="Offline activities">Offline activities
+        <input type="checkbox" name="activity_type" value="Simple brand exposure">Simple brand exposure
+    </div>
+    <div class="radio">
+        Resources
+        <input type="radio" name="resources">Sponsor
+        <input type="radio" name="resources">Venue
+    </div>
+    <div class="textArea">
+        Activity form
+        <textarea name="form" cols="30" rows="10"></textarea>
+    </div>
+    <button class="提交">Create</button>
+    <button disabled class="重置" type="reset">Cancel</button>
+  </body>
+</html>
